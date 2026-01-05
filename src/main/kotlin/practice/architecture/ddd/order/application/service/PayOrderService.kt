@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service
 import practice.architecture.ddd.order.application.dto.request.PayOrderRequest
 import practice.architecture.ddd.order.application.dto.response.OrderResponse
 import practice.architecture.ddd.order.domain.model.OrderId
-import practice.architecture.ddd.order.repository.OrderRepository
+import practice.architecture.ddd.order.domain.repository.OrderRepository
 
 @Service
 class PayOrderService(

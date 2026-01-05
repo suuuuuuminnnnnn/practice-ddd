@@ -7,7 +7,7 @@ import practice.architecture.ddd.order.application.dto.response.OrderResponse
 import practice.architecture.ddd.order.domain.factory.OrderFactory
 import practice.architecture.ddd.order.domain.model.CustomerId
 import practice.architecture.ddd.order.domain.model.OrderLine
-import practice.architecture.ddd.order.repository.OrderRepository
+import practice.architecture.ddd.order.domain.repository.OrderRepository
 import practice.architecture.ddd.shared.domain.Money
 
 @Service

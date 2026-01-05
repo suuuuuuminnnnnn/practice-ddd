@@ -5,7 +5,7 @@ import practice.architecture.ddd.order.domain.model.Order
 import practice.architecture.ddd.order.domain.model.OrderId
 import practice.architecture.ddd.order.infrastructure.persistence.jpa.mapper.OrderMapper
 import practice.architecture.ddd.order.infrastructure.persistence.jpa.repository.OrderJpaRepository
-import practice.architecture.ddd.order.repository.OrderRepository
+import practice.architecture.ddd.order.domain.repository.OrderRepository
 
 @Repository
 class OrderRepositoryImpl(

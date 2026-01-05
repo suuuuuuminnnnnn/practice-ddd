@@ -1,4 +1,4 @@
-package practice.architecture.ddd.order.interfaces.http
+package practice.architecture.ddd.order.presentation.web
 
 import jakarta.validation.Valid
 import org.springframework.http.HttpStatus
