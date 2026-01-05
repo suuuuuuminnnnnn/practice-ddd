@@ -3,7 +3,7 @@ package practice.architecture.ddd.order.presentation.web
 import jakarta.validation.Valid
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
-import org.springframework.stereotype.Repository
+import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
@@ -13,7 +13,7 @@ import practice.architecture.ddd.order.application.dto.response.OrderResponse
 import practice.architecture.ddd.order.application.service.PayOrderService
 import practice.architecture.ddd.order.application.service.PlaceOrderService
 
-@Repository
+@RestController
 @RequestMapping("/api/orders")
 class OrderController(
     private val placeOrderService: PlaceOrderService,
